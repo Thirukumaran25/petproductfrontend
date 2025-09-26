@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api'
-const MEDIA_BASE_URL = 'http://127.0.0.1:8000'
+const API_BASE_URL = 'https://petproductbackend.onrender.com/api'
+const MEDIA_BASE_URL = 'https://petproductbackend.onrender.com'
 
 
 const api = axios.create({

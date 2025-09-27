@@ -122,7 +122,7 @@ function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6 text-sm font-semibold">
-            <Link to="/" className="text-yellow-400">Home</Link>
+            <Link to="/" className="">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
             {userEmail ? (

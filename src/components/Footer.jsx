@@ -6,8 +6,9 @@ function Footer() {
         {/* Logo */}
         <div>
           <div className="flex items-center gap-1 mb-4 text-xl font-bold">
+            <a href="/">
             <span role="img" aria-label="paws">🐾🐾</span>
-            <span>PetPalooza</span>
+            <span>PetPalooza</span></a>
           </div>
         </div>
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
@@ -15,8 +16,8 @@ function Footer() {
         <div>
           <h3 className="font-bold mb-2">PetPalooza</h3>
           <ul className="space-y-1 text-sm">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">FAQ</a></li>
@@ -27,8 +28,8 @@ function Footer() {
         <div>
           <h3 className="font-bold mb-2">Categories</h3>
           <ul className="space-y-1 text-sm">
-            <li><a href="#">Dog</a></li>
-            <li><a href="#">Cat</a></li>
+            <li><a href="/dog">Dog</a></li>
+            <li><a href="/cat">Cat</a></li>
             <li><a href="#">Fish</a></li>
             <li><a href="#">Rats</a></li>
             <li><a href="#">Rabbits</a></li>

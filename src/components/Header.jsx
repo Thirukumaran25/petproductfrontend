@@ -96,8 +96,9 @@ function Header() {
           <div className="flex items-center gap-4">
             {/* Logo */}
             <div className="justify-items-center  text-lg font-bold">
+            <a href="/">
               <img src={logoData?.logo ? getMediaUrl(logoData.logo) : ''} alt="Logo" />
-              <span>PetPalooza</span>
+              <span>PetPalooza</span></a>
             </div>
 
             {/* Search (hidden on small screens) */}
@@ -167,7 +168,7 @@ function Header() {
         {/* Collapsible Mobile Menu */}
         {menuOpen && (
           <div className="mt-4 flex flex-col gap-4 text-center justify-items-center text-sm font-semibold md:hidden">
-            <Link to="/" className="text-yellow-400">Home</Link>
+            <Link to="/" className="">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
             {userEmail ? (
